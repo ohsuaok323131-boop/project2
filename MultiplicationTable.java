@@ -30,7 +30,5 @@ public class MultiplicationTable
         // 여기에 코드를 작성하세요.
         return x + y;
     }
-    public static void main(String[] args){
-        System.out.println("애들아 잘 보임?");
-    }
+    
 }
