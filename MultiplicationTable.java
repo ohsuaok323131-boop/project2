@@ -31,6 +31,6 @@ public class MultiplicationTable
         return x + y;
     }
     public static void main(String[] args){
-        System.out.println("애들아 잘 보임?");
+        System.out.println("보여????");
     }
 }
