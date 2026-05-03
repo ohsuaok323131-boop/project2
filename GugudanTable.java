@@ -25,17 +25,12 @@ public class GugudanTable
      * @param  y  메소드의 샘플 파라미터
      * @return    x 더하기 y의 결과값을 반환
      */
-    int result=0;
-    public void calculate()
-    {
-        // 여기에 코드를 작성하세요.
-        for(int i=1;i<=9;i++){
-            result=gu*i;
-        }
-    }
     
-    public void print(){
+    int result=0;
+    
+    public void CalculatePrint(){
         for(int i=1;i<=9;i++){
+            result = gu * i;
             System.out.println(gu+"x"+i+"="+result);
         }
     }

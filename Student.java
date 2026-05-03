@@ -31,7 +31,6 @@ public class Student extends Person{
     
     public void askGugudan(int gu){
         GugudanTable num=new GugudanTable(gu);
-        num.calculate();
-        num.print();
+        num.CalculatePrint();
     }
 }
