@@ -8,12 +8,12 @@
 public class Student extends Person{
 
     // 인스턴스 변수 - 다음의 예제를 사용자에 맞게 변경하세요.
-    private int student;
+    private String student;
 
     /**
      * Student 클래스의 객체 생성자
      */
-    public Student(String name, int id){
+    public Student(String name, String id){
         // 인스턴스 변수 초기화
         super(name);
         this.student=id;
@@ -25,7 +25,7 @@ public class Student extends Person{
      * @param  y  메소드의 샘플 파라미터
      * @return    x 더하기 y의 결과값을 반환
      */
-    public int getStudent(){
+    public String getStudent(){
         return this.student;
     }
     
